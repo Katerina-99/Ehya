@@ -1,0 +1,137 @@
+.trend
+  margin-bottom: 106px
+  &__content
+    max-width: 1135px
+    margin: auto
+  &__headline
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 48px
+  &__title
+    font-family: 'HKGrotesk-Bold'
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 60px
+    color: $text-color
+    margin: 0
+  &__links
+    display: flex
+    justify-content: space-between
+    min-width: 285px
+    padding-left: 0
+    margin: 0
+  &__item
+    list-style: none
+    text-decoration: none
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 25px
+    color: $text-color-lighter
+    cursor: pointer
+    &--active
+      font-family: Open Sans
+      font-style: normal
+      font-weight: bold
+      font-size: 18px
+      line-height: 25px
+      color: #183B56
+  &__wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__item-link
+    display: inline-block
+    margin-bottom: 50px
+    text-decoration: none
+  &__card
+    width: 260px
+    overflow: hidden
+  &__card-image
+    display: flex
+    flex-direction: column
+    align-items: center
+    height: 350px
+    background-color: $primary
+    border-radius: 8px
+    overflow: hidden
+    margin-bottom: 20px
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    overflow: hidden
+    &--first
+      background-image: url(../img/trend/desctop/card-1.png)
+    &--second
+      background-image: url(../img/trend/desctop/card-2.png)
+    &--third
+      background-image: url(../img/trend/desctop/card-3.png)
+    &--quadruple
+      background-image: url(../img/trend/desctop/card-4.png)
+    &--forties
+      background-image: url(../img/trend/desctop/card-5.png)
+    &--sext
+      background-image: url(../img/trend/desctop/card-6.png)
+    &--seventh
+      background-image: url(../img/trend/desctop/card-7.png)
+  &__image
+    width: 100%
+    height: 100%
+    object-fit: cover
+    background-position: 50%
+  &__subtitle
+    font-family: 'HKGrotesk-Bold'
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 32px
+    color: $text-color
+    margin: 0
+    margin-bottom: 3px
+    margin-left: 10px
+  &__icon
+    width: 28px
+    height: 37px
+    margin-top: 120px
+    margin-bottom: 25px
+  &__text
+    font-family: 'HKGrotesk-Bold'
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 32px
+    color: $light
+    text-align: center
+.price
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &__text
+    font-style: normal
+    font-weight: normal
+    font-size: 20px
+    line-height: 36px
+    color: $text-color-lighter
+    margin-left: 10px
+  &__image
+    margin-right: 10px
+.filter
+  display: flex
+  justify-content: space-between
+  list-style: none
+  align-items: center
+  padding: 0
+  margin: 0
+  &__items
+    display: none
+    &--active
+      display: block
+
+// .active
+//   color: $text-color
+//   font-weight: bold
+
+// #trend-filter .mix
+//   display: none

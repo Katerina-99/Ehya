@@ -1,0 +1,935 @@
+// max-width: 1200px
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .header
+    &-wrapper
+      max-width: 890px
+  .hero
+    margin-bottom: 80px
+    &__content
+      &--thankyou
+        max-width: 890px
+        min-height: 200px
+        margin: auto
+        padding: 0
+  .collection
+    &__info
+      max-width: 860px
+      flex-direction: column
+    &__images
+      margin-right: 0
+      margin-bottom: 40px
+    &__image
+      width: 420px
+    &__item
+      width: 400px
+      height: 260px
+    &__text
+      max-width: 100%
+      padding: 0
+    &__description
+      max-width: 100%
+      margin-bottom: 24px
+  .trend
+    &__content
+      max-width: 860px
+    &__wrapper
+      justify-content: space-around
+    &__card
+      width: 350px
+  .stories
+    &__info
+      max-width: 960px
+    &__slider
+      width: 600px
+      &-content
+        width: 290px
+    &__text
+      max-width: 320px
+  .newsletter
+    &__wrapper
+      max-width: 960px
+    &__form
+      margin-right: 0
+    &:after
+      right: -150px
+      top: 100px
+
+  .footer
+    &__wrapper
+      max-width: 960px
+    &__logo-wrap
+      max-width: 500px
+      margin-right: 180px
+    &__list
+      margin-bottom: 48px
+      &-items
+        flex-wrap: wrap
+
+// max-width: 992px
+@media (max-width: 992px)
+  .container
+    max-width: 730px
+    width: 100%
+  .header
+    padding-top: 25px
+    padding-bottom: 18px
+    margin-bottom: 30px
+    background-color: $light
+    &-wrapper
+      max-width: 672px
+    &-navbar
+      &__list
+        margin-right: 15px
+      &__item
+        margin-left: 10px
+        margin-right: 10px
+  .hero
+    margin-bottom: 80px
+    &__content
+      &--thankyou
+        max-width: 672px
+        min-height: 200px
+  .collection
+    &__info
+      max-width: 672px
+      flex-direction: column
+      align-items: center
+    &__images
+      margin: 0
+      margin-bottom: 41px
+    &__image
+      width: 322px
+    &__item
+      width: 320px
+      height: 230px
+    &__text
+      max-width: 100%
+      padding: 0
+    &__description
+      max-width: 100%
+      margin-bottom: 24px
+  .trend
+    &__content
+      max-width: 672px
+    &__wrapper
+      justify-content: space-between
+    &__card
+      width: 280px
+  .reviews
+    &-slider
+      width: 672px
+      height: 415px
+  .stories
+    &__info
+      max-width: 730px
+      flex-direction: column
+      align-items: center
+    &__text
+      text-align: center
+      max-width: 568px
+      margin-bottom: 36px
+    &__link
+      max-width: 102px
+      margin: auto
+      margin-bottom: 24px
+    &__title
+      margin-bottom: 16px
+    &__description
+      margin-bottom: 36px
+    &__slider
+      width: 682px
+      &-arrow
+        margin: auto
+        max-width: 134px
+      &-content
+        width: 332px
+      &-image
+        width: 321px
+  .newsletter
+    &:before
+      left: -160px
+      top: 0
+    &:after
+      right: -160px
+      top: 300px
+    &__wrapper
+      flex-direction: column
+      max-width: 730px
+    &__text
+      text-align: center
+      margin-bottom: 56px
+  .footer
+    padding-top: 64px
+    padding-bottom: 64px
+    &__wrapper
+      max-width: 730px
+    &__logo-wrap
+      margin-right: 30px
+    &--thankyou
+      padding-top: 0
+
+  .modal
+    &__dialog
+      padding: 33px 50px
+
+// max-width: 768px
+@media (max-width: 768px)
+  body
+    padding-top: 101px
+  .container
+    max-width: 730px
+    width: 100%
+  .header
+    &--mobile
+      &--fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 99
+    &-navbar
+      display: none
+      position: fixed
+      &--visible
+        display: flex
+        flex-direction: column
+        top: 10px
+        left: 8px
+        right: 8px
+        padding: 36px 24px
+        background-color: $light
+      &__list
+        &--mobile
+          &--visible
+            flex-direction: column
+            align-items: flex-start
+      &__item
+        &--mobile
+          &--visible
+            margin: 0
+            margin-bottom: 20px
+      &__close
+        &--mobile
+          &--visible
+            display: block
+            position: absolute
+            top: 16px
+            right: 20px
+    &-wrapper
+      max-width: 650px
+      margin: 0
+      margin-left: 40px
+      margin-right: 40px
+  .login
+    &__button
+      &--mobile
+        &--visible
+          text-align: center
+  .menu
+    &-button
+      display: flex
+      width: 22px
+      height: 17px
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: $light
+      cursor: pointer
+      &__line
+        width: 22px
+        height: 2px
+        background-color: #3A4C66
+  .hero
+    &__content
+      min-height: 624px
+      padding: 36px 0 36px 29px
+      background-size: auto
+      background-position: 65% 30%
+      &--thankyou
+        max-width: 650px
+        min-height: 300px
+        padding-left: 0
+        padding-bottom: 0
+        margin-left: 40px
+        margin-right: 40px
+    &__text
+      max-width: 444px
+    &__link
+      margin-bottom: 24px
+    &__title
+      max-width: 365px
+      font-size: 48px
+      line-height: 60px
+      margin-bottom: 20px
+    &__description
+      max-width: 400px
+      font-size: 18px
+      line-height: 32px
+      margin-bottom: 37px
+    &__button
+      margin-bottom: 37px
+    &__list
+      max-width: 444px
+  .collection
+    margin-bottom: 80px
+    &__info
+      max-width: 672px
+    &__images
+      margin: 0
+      margin-bottom: 41px
+    &__text
+      max-width: 100%
+      padding: 0
+    &__description
+      max-width: 100%
+      margin-bottom: 24px
+  .trend
+    margin-bottom: 43px
+    &__content
+      max-width: 608px
+    &__headline
+      flex-direction: column
+    &__title
+      margin-bottom: 27px
+    &__headline
+      margin-bottom: 55px
+    &__item-link
+      margin-bottom: 48px
+
+  .reviews
+    margin-bottom: 69px
+    &-slider
+      // width: 576px
+      width: 84%
+      height: 415px
+      &__item
+        height: 415px
+      &__client
+        margin-bottom: 28px
+      &__quote
+        margin-bottom: 35px
+      &__text
+        &--hidden
+          display: none
+  .stories
+    margin-bottom: 91px
+    &__info
+      padding-top: 80px
+    &__link
+      margin-bottom: 23px
+    &__text
+      margin-bottom: 25px
+    &__slider
+      &-bottom
+        width: 322px
+        margin-top: -22px
+        padding: 21px 32px 20px 20px
+      &-subtitle
+        max-width: 250px
+  .newsletter
+    padding: 72px 160px 80px
+    &:before
+      left: -160px
+      top: 0
+    &:after
+      right: -140px
+      top: 305px
+
+    &__text
+      margin-bottom: 58px
+  .footer
+    &__wrapper
+      max-width: 648px
+    &__logo-wrap
+      max-width: 253px
+      margin-right: 35px
+    &__list
+      margin-bottom: 24px
+      &:nth-child(2)
+        margin-right: 0
+  .modal
+    &__dialog
+      padding: 33px 35px
+
+@media (max-width: 767px)
+  .hero
+    margin-bottom: 64px
+  .collection
+    &__info
+      max-width: 520px
+      text-align: center
+    &__images
+      flex-direction: column
+      min-width: 520px
+      // min-height: 411px
+      margin-bottom: 36px
+    &__image
+      width: 520px
+      height: 450px
+      margin-bottom: 14px
+    &-wrap
+      flex-direction: row
+    &__item
+      width: 250px
+      height: 180px
+  .trend
+    &__content
+      max-width: 499px
+    &__card
+      width: 240px
+  .reviews
+    &-slider
+      width: 84%
+      height: 450px
+      margin: auto
+
+  .stories
+    &__info
+      padding-top: 80px
+      max-width: 576px
+    &__slider
+      width: 500px
+      &-wrap
+        width: 500px
+      &-item
+        width: 500px
+      &-content
+        width: 280px
+      &-image
+        width: 220px
+        height: 280px
+      &-bottom
+        width: 270px
+        margin-top: -22px
+        padding: 21px 32px 20px 20px
+      &-subtitle
+        max-width: 250px
+  .footer
+    &__wrapper
+      max-width: 576px
+    &__logo-wrap
+      max-width: 200px
+      margin-right: 25px
+    &__list
+      margin-bottom: 24px
+
+// max-width: 576px
+@media (max-width: 576px)
+  .hero
+    &__content
+      padding: 36px 0
+      &--thankyou
+        padding: 0
+        min-height: 200px
+    &__text
+      position: relative
+      max-width: 320px
+      margin: auto
+      text-align: center
+    &__link
+      max-width: 196px
+      margin: auto
+      margin-bottom: 20px
+      padding: 2px 27px
+      font-size: 13px
+    &__title
+      max-width: 244px
+      margin: auto
+      margin-bottom: 20px
+      font-size: 32px
+      line-height: 40px
+    &__description
+      font-size: 16px
+      line-height: 28px
+      margin-bottom: 24px
+      &--thankyou
+        margin-bottom: 35px
+    &__button
+      min-width: 257px
+      min-height: 48px
+      padding: 13px
+      margin-bottom: 22px
+      font-size: 16px
+      line-height: 22px
+      &--thankyou
+        padding-left: 65px
+        padding-right: 65px
+    &__list
+      flex-wrap: wrap
+      justify-content: center
+    &__item
+      margin-bottom: 16px
+    &__image
+      width: 24px
+      height: 24px
+      margin-bottom: -6px
+    &__payment
+      margin-right: 16px
+  .collection
+    &__info
+      max-width: 300px
+    &__images
+      flex-direction: column
+      min-width: 290px
+      min-height: 411px
+      margin-bottom: 36px
+    &__image
+      width: 100%
+      height: 300px
+      margin-bottom: 14px
+    &-wrap
+      flex-direction: row
+    &__item
+      width: 138px
+      height: 97px
+    &__text
+      text-align: center
+    &__title
+      margin-bottom: 20px
+      font-size: 28px
+      line-height: 36px
+    &__description
+      max-width: 280px
+      font-size: 16px
+      line-height: 28px
+    &__link
+      display: none
+  .trend
+    &__content
+      max-width: 320px
+    &__title
+      font-size: 28px
+      line-height: 36px
+    &__links
+      min-width: 218px
+    &__link
+      font-size: 16px
+      line-height: 22px
+    &__card
+      width: 150px
+    &__card-image
+      height: 190px
+      margin-bottom: 13px
+    &__subtitle
+      font-size: 16px
+      line-height: 20px
+      margin-left: 0
+    &__icon
+      width: 25px
+      height: 32px
+      margin-top: 40px
+      margin-bottom: 15px
+    &__text
+      font-size: 17px
+      line-height: 20px
+  .price
+    justify-content: flex-start
+    &__text
+      font-size: 14px
+      line-height: 24px
+      margin-left: 0
+      margin-right: 9px
+    &__image
+      width: 14px
+      height: 32px
+  .reviews
+    &-slider
+      width: 84%
+      height: 520px
+      &__quote
+        width: 70px
+        height: 60px
+        margin-bottom: 13px
+      &__text
+        font-size: 18px
+        line-height: 36px
+        margin-bottom: 24px
+  .stories
+    &__info
+      padding-top: 80px
+      max-width: 320px
+    &__slider
+      width: 279px
+      height: 972px
+      &-wrap
+        width: 100%
+        text-align: center
+      &-item
+        width: 320px
+        flex-direction: column
+  .newsletter
+    padding: 64px 0 122px
+    &__wrapper
+      max-width: 320px
+    &__form
+      max-width: 300px
+      height: 48px
+      &-input
+        padding: 13px 13px 13px 46px
+        margin-bottom: 10px
+      &-image
+        top: 19px
+      &-button
+        position: relative
+        width: 300px
+        height: 48px
+        margin-left: 3px
+        border-radius: 8px
+    &__title
+      font-size: 28px
+      line-height: 36px
+    &__description
+      font-size: 16px
+      line-height: 28px
+  .footer
+    &__wrapper
+      max-width: 253px
+      flex-direction: column
+    &__logo-wrap
+      display: flex
+      flex-direction: column
+      align-items: center
+      max-width: 253px
+      margin: 0
+      order: 1
+    &__subtitle
+      text-align: center
+    &__list
+      margin-bottom: 24px
+
+  .modal
+    &__dialog
+      max-width: 281px
+      width: 100%
+      padding: 33px 35px
+
+// max-width: 320px
+@media (max-width: 320px)
+  body
+    padding-top: 88px
+  .container
+    max-width: 320px
+  .header
+    margin-bottom: 24px
+    padding-top: 18px
+    padding-bottom: 18px
+    &-wrapper
+      max-width: 272px
+      margin: auto
+  .login
+    &__button
+      &--mobile
+        &--visible
+          padding: 7px 0
+  .hero
+    margin-bottom: 64px
+    &--thankyou
+      margin-bottom: 30px
+    &__content
+      position: relative
+      background-image: url(../img/hero/hero-1.png)
+      min-height: 899px
+      padding: 381px 20px 20px
+      background-position: 55% 58%
+      border-radius: 0
+      &:before
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        width: 100%
+        height: 100%
+        background: linear-gradient(180deg, rgba(238, 238, 238, 0.0001) 47.32%, #E8EAE9 65.51%)
+      &--thankyou
+        background-image: none
+        padding: 20px 0 0 0
+        min-height: 230px
+        &::before
+          background: #ffffff
+    &__text
+      position: relative
+      max-width: 280px
+      text-align: center
+    &__link
+      max-width: 196px
+      margin: 0 42px 20px
+      padding: 2px 27px
+      font-size: 13px
+    &__title
+      max-width: 244px
+      margin: auto
+      margin-bottom: 20px
+      font-size: 32px
+      line-height: 40px
+    &__description
+      font-size: 16px
+      line-height: 28px
+      margin-bottom: 24px
+    &__button
+      min-width: 257px
+      min-height: 48px
+      padding: 13px
+      margin-bottom: 22px
+      font-size: 16px
+      line-height: 22px
+    &__list
+      flex-wrap: wrap
+      justify-content: center
+    &__item
+      margin-bottom: 16px
+    &__image
+      width: 24px
+      height: 24px
+      margin-bottom: -6px
+    &__payment
+      margin-right: 16px
+  .collection
+    margin-bottom: 86px
+    &__info
+      max-width: 290px
+    &__images
+      flex-direction: column
+      min-width: 290px
+      min-height: 411px
+      margin-bottom: 36px
+    &__image
+      width: 100%
+      height: 300px
+      margin-bottom: 14px
+    &-wrap
+      flex-direction: row
+    &__item
+      width: 138px
+      height: 97px
+    &__text
+      text-align: center
+    &__title
+      margin-bottom: 20px
+      font-size: 28px
+      line-height: 36px
+    &__description
+      max-width: 280px
+      font-size: 16px
+      line-height: 28px
+    &__link
+      display: none
+  .trend
+    margin-bottom: 39px
+    &__content
+      max-width: 290px
+    &__title
+      margin-bottom: 24px
+    &__headline
+      margin-bottom: 34px
+    &__item-link
+      margin-bottom: 20px
+    &__card
+      width: 140px
+      height: 234px
+    &__card-image
+      height: 170px
+      margin-bottom: 15px
+      &--first
+        background-image: url(../img/trend/mobile/card-1.png)
+      &--second
+        background-image: url(../img/trend/mobile/card-2.png)
+      &--third
+        background-image: url(../img/trend/mobile/card-3.png)
+      &--quadruple
+        background-image: url(../img/trend/mobile/card-4.png)
+      &--forties
+        background-image: url(../img/trend/mobile/card-5.png)
+      &--sext
+        background-image: url(../img/trend/mobile/card-6.png)
+      &--seventh
+        background-image: url(../img/trend/mobile/card-7.png)
+    &__subtitle
+      margin-bottom: 0
+    &__item
+      margin-right: 8px
+      &:last-child
+        margin-right: 0
+  .reviews
+    margin-bottom: 50px
+    &-slider
+      width: 280px
+      height: 555px
+      &__text
+        &--hidden
+          display: none
+        &--unvisible
+          display: none
+      &__quote
+        width: 70px
+        height: 60px
+        margin-bottom: 20px
+      &__text
+        margin-bottom: 24px
+      &__client
+        margin-bottom: 24px
+  .stories
+    margin-bottom: 65px
+    &__info
+      padding-top: 48px
+      max-width: 320px
+    &__text
+      margin-bottom: 26px
+      max-width: 280px
+    &__slider
+      width: 279px
+      height: 840px
+      &-item
+        width: 280px
+        flex-direction: column
+      &-wrap
+        text-align: start
+      &-content
+        margin-top: 0
+      &-image
+        height: 276px
+        width: 270px
+      &-bottom
+        padding: 20px 10px 20px 20px
+        margin-top: -24px
+      &-subtitle
+        font-size: 20px
+        line-height: 24px
+        margin-bottom: 19px
+      &-button
+        width: 48px
+        height: 48px
+        background-size: cover
+        &--prev
+          margin-right: 16px
+      &-arrow
+        max-width: 112px
+    &__link
+      max-width: 94px
+      padding: 2px 12px
+      margin-bottom: 23px
+    &__title
+      font-size: 28px
+      line-height: 36px
+      &--hidden
+        display: none
+    &__description
+      font-size: 16px
+      line-height: 28px
+  .newsletter
+    padding: 64px 20px 122px
+    &:before
+      left: -200px
+      top: 0
+    &:after
+      right: -170px
+      top: 300px
+    &__wrapper
+      max-width: 280px
+    &__form
+      max-width: 280px
+      &-button
+        width: 280px
+      &-input
+        margin-bottom: 6px
+    &__text
+      margin-bottom: 38px
+    &__title
+      margin-bottom: 24px
+  .footer
+    padding-top: 48px
+    &--thankyou
+      padding-top: 0
+    &__wrapper
+      max-width: 253px
+    &__logo-wrap
+      max-width: 100%
+    &__logo
+      margin-bottom: 14px
+    &__subtitle
+      font-size: 14px
+      line-height: 24px
+      margin-bottom: 22px
+    &__list
+      margin-bottom: 15px
+      &-items
+        margin-bottom: 35px
+      &-title
+        font-size: 16px
+        line-height: 22px
+        margin-bottom: 20px
+    &__link
+      font-size: 14px
+      line-height: 20px
+    &__item
+      margin-bottom: 15px
+
+    &__social
+      &-link
+        margin-right: 7px
+      &-icon
+        width: 40px
+        height: 40px
+
+@media(hover: hover) and (pointer: fine) 
+  /*тут пишешь все свои ховеры*/
+  .logo:hover
+    transform: scale(1.1)
+  .login
+    &__button:hover
+      background-color: $primary
+      color: $light
+  .header
+    &-navbar
+      &__link:hover
+        opacity: 0.6
+  .hero
+    &__link:hover
+      background: #53ea93
+    &__payment:hover
+      opacity: 0.6
+    &__guarantee:hover
+      opacity: 0.6
+    &__quality:hover
+      opacity: 0.6
+    &__button:hover
+      background-color: $primary
+  .collection
+    &-show:hover
+      opacity: 0.6
+  .trend
+    &__item
+      &:hover
+        color: $text-color
+        font-weight: bold
+      &-link:hover
+        transform: scale(0.9)
+  .stories
+    &__slider
+      &-button:hover
+        opacity: 0.6
+      &-link:hover
+        opacity: 0.6
+    &__link:hover
+      background: #53ea93
+  .newsletter
+    &__form
+      &-button:hover
+        background-color: $primary
+  .footer
+    &__logo:hover
+      transform: scale(1.1)
+    &__social
+      &-icon:hover
+        opacity: 0.6
+    &__link:hover
+      text-decoration: underline
+      color: $text-color-lighter
+  .arrow
+    &__to-top
+      &-image:hover
+        opacity: 1

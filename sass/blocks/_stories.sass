@@ -1,0 +1,102 @@
+.stories
+  margin-bottom: 149px
+  &__info
+    display: flex
+    justify-content: space-between
+    padding-top: 121px
+    max-width: 1150px
+    margin: auto
+    border-top: 1px solid #E5EAF4
+  &__link
+    display: block
+    max-width: 102px
+    padding: 6px 16px
+    margin-bottom: 27px
+    background: rgba(54, 179, 126, 0.1)
+    border-radius: 2000px
+    text-decoration: none
+    text-transform: uppercase
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 20px
+    color: $secondary
+  &__text
+    max-width: 392px
+  &__title
+    font-family: 'HKGrotesk-Bold'
+    font-style: normal
+    font-weight: bold
+    font-size: 48px
+    line-height: 60px
+    color: $text-color
+    margin: 0
+    margin-bottom: 24px
+  &__description
+    font-style: normal
+    font-weight: normal
+    font-size: 20px
+    line-height: 36px
+    color: $text-color-lighter
+    margin: 0
+    margin-bottom: 50px
+  &__slider
+    width: 662px
+    height: 475px
+    &-arrow
+      display: flex
+    &-button
+      background-repeat: no-repeat
+      width: 56px
+      height: 56px
+      outline: none
+      cursor: pointer
+      &--prev
+        background-image: url(../img/stories/arrow-right.svg)
+        margin-right: 22px
+        transform: scale(-1, 1)
+      &--next
+        background-image: url(../img/stories/arrow-right.svg)
+
+    &-item
+      display: flex
+      justify-content: space-between
+    &-content
+      width: 322px
+      // margin-right: 28px
+      margin-top: 10px
+    &__image
+      height: 317px
+      width: 312px
+      border-radius: 8px 8px 0px 0px
+    &-image
+      height: 317px
+      width: 100%
+      border-radius: 8px 8px 0px 0px
+      object-fit: cover
+    &-bottom
+      position: relative
+      height: 178px
+      padding: 20px 47px 20px 20px
+      background: #FAFDFF
+      margin-left: 10px
+      margin-top: -24px
+      width: 100%
+
+    &-subtitle
+      font-family: 'HKGrotesk-Regular'
+      font-style: normal
+      font-weight: 500
+      font-size: 22px
+      line-height: 32px
+      color: $text-color
+      margin: 0
+      margin-bottom: 20px
+      // max-width: 250px
+    &-link
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+      text-decoration: none
+      color: $primary
